@@ -1,0 +1,686 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    box-sizing: border-box;
+    
+}
+header{
+    background-color: rgb(3, 48, 3);
+    padding: 5px;
+    text-align: center;
+    top 0
+    left: 0;
+}
+header h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    border-left: 2px solid white;
+    border-right: 3px solid white;
+    border-radius: 50px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header p{
+    color: red;
+    letter-spacing: 4px;
+    margin-top: -19px;
+    text-transform: capitalize;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background-color: black;
+    margin-top: -16px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+nav ul li{
+    margin: 5px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 3px;
+    padding-left: 15px;
+    border-left: 4px solid rgb(3, 48, 3);;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: rgb(231, 224, 224);
+    color: black;
+    padding: 15px;
+}
+section{
+    background-color: beige;
+    margin-top: -15px;
+}
+section ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+section ul li{
+    padding: 10px;
+    margin: 10px;
+
+}
+section ul li img:hover{
+    height: 420px;
+    width: 520px;
+    
+}
+section ul li img{
+    height: 400px;
+    width: 500px;
+    border: 3px solid ;
+    border-radius: 30px 10px;
+
+}
+
+.aboutpage{
+    background-color: rgb(237, 245, 237);
+    display: flex;
+    text-align: center;
+    margin-top: -15px;
+}
+.aboutpage .welcome{
+    color: black;
+    letter-spacing: 3px;
+    line-height: 25px;
+    text-align: justify;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}.welcome h3{
+    color: rgb(3, 48, 3);
+    opacity: 0.9px
+    margin: 5px;
+    border-left: red solid 5px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.welcome .list{
+    line-height: 80px;
+    list-style-position: outside;
+    list-style-type:circle;
+}
+footer{
+    background-color: rgb(3, 48, 3);
+    padding: 15px;
+    text-align: center;
+}
+footer h3{
+    text-transform: capitalize;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px 50px;
+    margin-left: 15px;
+}
+footer form{
+    display: inline-block;
+    margin-top: -15px;
+}
+footer form input:hover{
+    width: 320px;
+}
+footer form input{
+    padding:8px;
+    background-color: white;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+footer p {
+    color: white;
+    font-size: small;
+}
+
+
+
+
+
+
+.formparent{
+    background-color: rgb(3, 48, 3);
+    text-align: center;
+    padding: 30px;  
+}
+.formparent .regf{
+    padding: 50px;
+
+}
+.formparent .regff{
+    border: 2px solid white;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+    background-color: rgb(3, 48, 3);
+    
+}
+.formparent .regff h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-bottom: white 3px solid;
+    border-radius: 30px;
+
+}
+.formparent .regff p{
+    color: red;
+    letter-spacing: 3px;
+    font-family: geneva;
+    
+}
+.formpage{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px 80px;
+}
+.formpage form input{
+    background-color: rgb(3, 48, 3);
+    border: none;
+    border-bottom: white 2px solid;
+    color: wheat;
+
+}
+.formpage form input:focus{
+    width: 300px;
+    outline-style: none;
+    color: wheat;
+}
+.formpage form label{
+    color: white;
+}
+button{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+.aboutmore{
+    background-color: rgb(3, 48, 3);
+    padding: 15px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.about p {
+    text-align: center;
+}
+.about ul{
+    list-style-type: none;
+    text-align: center;
+}
+.about li img{
+    width: 500px;
+}
+
+
+@media screen and  (max-width: 600px){
+    
+    header h1{
+        letter-spacing: 2px;
+        font-size: 30px;
+    }
+    header p{
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin-top: -35px;
+    }
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        padding: 5px;
+    }
+    nav ul li{
+        margin: 3px;
+        border: none;
+    }
+    nav ul li a{
+        font-size: 15px;
+        padding: 8px;
+    }
+    nav ul li a:hover{
+        background-color: rgb(231, 224, 224);
+        color: black;
+        padding: 7px;
+    }
+   
+    section ul li img{
+       height: 150px;
+       width: 250px;
+   }
+   section ul li img:hover{
+       height: 160px;
+       width: 260px;
+       
+   }
+   a.aboutpage
+    .aboutpage .welcome{
+       line-height: 10px;
+       width: 100px;
+       padding: 10px;
+       width: 200px;
+       font-size: 15px;
+   }
+   
+   .welcome .list{
+    line-height: 10px;
+    padding: 10px;
+    font-size: 15px;
+ 
+   }
+   .welcome h3{
+    border-left: red solid 2px;
+    padding-left: 60px;
+    font-size: 17px;
+   }
+   footer{
+    padding: 10px;
+    font-size: 15px;
+    }
+    footer h3{
+    padding: 5px;
+    border-radius: 20px 50px;
+    }
+    footer form{
+        font-size: 20px;
+        margin-top: -15px;
+    }
+    footer form input:hover{
+        width: 220px;
+    }
+    footer form input{
+        padding:8px;
+
+    }
+    
+
+}
+
+@media screen and  (max-width: 300px){
+    
+    header h1{
+        letter-spacing: 1px
+    
+    }
+    header p{
+        font-size: 12px;
+    }
+    nav ul{
+    display: flex;
+    flex-direction: column;
+
+    }
+    nav ul li{
+        border-bottom: 2px solid white;
+        padding: 5px;
+    }
+    nav ul li a{
+        border: none;
+        font-size: 15px;
+        padding: 3px;
+    }
+    nav ul li a:hover{
+        padding: 10px;
+    }
+    section ul{
+        display: block;
+        padding: 0;
+    }
+    section ul li img{
+       height: 150px;
+       width: 200px;
+   }
+   section ul li img:hover{
+       height: 160px;
+       width: 260px;
+       
+   }
+   .aboutpage{
+    display: flex;
+    flex-direction: column;
+   }
+    .aboutpage .welcome{
+       font-size: 13px;
+       line-height: 18px;
+       text-align: left;
+      
+   }
+   
+   .welcome .list{
+    font-size: 11px;
+    line-height: 2;
+ 
+   }
+   .welcome h3{
+    font-size: 11px;
+   }
+   footer{
+    font-size: 9px;
+    }
+    footer h3{
+    border-radius: 10px 20px;
+    }
+    footer form{
+        font-size: 9px;
+    }
+    footer form input:hover{
+        width: 220px;
+    }
+    footer form input{
+        font-size: 10px;
+
+    }
+    footer button{
+        font-size: 9px;
+        margin: 10px;
+    }
+    footer p{
+        font-size: 1px;
+    }
+    
+
+}
+
+@media screen and  (max-width: 400px){
+    header h1{
+        letter-spacing: 1px
+    }
+    header p{
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    nav ul li{
+        border-bottom: 2px solid white;
+        padding: 5px;
+    }
+    nav ul li a{
+        border: none;
+        font-size: 15px;
+        padding: 3px;
+    }
+    nav ul li a:hover{
+        padding: 10px;
+    }
+    section ul{
+        display: flex;
+        flex-direction: column;
+    }
+    section ul li{
+        padding: 5px;
+    }
+    section ul li img{
+       height: 250px;
+       width: 470px;
+   }
+   section ul li img:hover{
+       height: 260px;
+       width: 480px;
+       
+   }
+   .aboutpage{
+    display: flex;
+    flex-direction: column;
+   }
+    .aboutpage .welcome{
+       font-size: 20px;
+       line-height: 30px;
+       text-align: justify;
+       width: 600px;
+       padding: 15px;
+   }
+   .welcome .list{
+    font-size: 20px;
+    line-height: 2;
+ 
+   }
+   .welcome h3{
+    font-size: 20px;
+   }
+   footer{
+    font-size: 15px;
+    }
+    footer h3{
+    border-radius: 5px 15px;
+    }
+    
+    footer form input:hover{
+        width: 220px;
+    }
+    footer form input{
+        font-size: 13px;
+
+    }
+    footer button{
+        font-size: 13px;
+        margin: 5px;
+    }
+    footer p{
+        font-size: 13px;
+    }
+    
+
+}
+@media screen and  (max-width: 500px){
+    header h1{
+        letter-spacing: 1px
+    }
+    header p{
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    nav ul li{
+        border-bottom: 2px solid white;
+        padding: 5px;
+    }
+    nav ul li a{
+        border: none;
+        font-size: 15px;
+        padding: 3px;
+    }
+    nav ul li a:hover{
+        padding: 10px;
+    }
+    section ul{
+        display: flex;
+        flex-direction: column;
+    }
+    section ul li{
+        padding: 5px;
+    }
+    section ul li img{
+       height: 250px;
+       width: 470px;
+   }
+   section ul li img:hover{
+       height: 260px;
+       width: 480px;
+       
+   }
+   .aboutpage{
+    display: flex;
+    flex-direction: column;
+   }
+    .aboutpage .welcome{
+       font-size: 20px;
+       line-height: 30px;
+       text-align: justify;
+       width: 600px;
+       padding: 15px;
+   }
+   .welcome .list{
+    font-size: 20px;
+    line-height: 2;
+ 
+   }
+   .welcome h3{
+    font-size: 20px;
+   }
+   footer{
+    font-size: 15px;
+    }
+    footer h3{
+    border-radius: 5px 15px;
+    }
+    
+    footer form input:hover{
+        width: 220px;
+    }
+    footer form input{
+        font-size: 13px;
+
+    }
+    footer button{
+        font-size: 13px;
+        margin: 5px;
+    }
+    footer p{
+        font-size: 13px;
+    }
+    
+
+}
+
+@media screen and  (max-width: 700px){
+    section ul li img{
+        height: 250px;
+        width: 700px;
+    }
+    section ul li img:hover{
+        height: 260px;
+        width: 710px;
+        
+    }
+}
+@media screen and  (max-width: 600px){
+    
+    .formparent{
+        padding: 30px;  
+    }
+    .formparent .regf{
+        padding: 50px;
+
+    }
+    .formparent .regff{
+        width: 300px;
+        padding: 20px;
+    }
+    .formparent .regff h1{
+        font-size: 20px;
+        padding: 10px;
+        letter-spacing: 5px;
+        border-radius: 25px;
+
+    }
+    .formparent .regff p{
+        letter-spacing: 3px;
+        font-size: 15px;
+    }
+    .formpage{
+        border: 2px solid white;
+        padding: 20px;
+        border-radius: 10px 40px;
+        font-size: 13px;
+    }
+    .formpage form input{
+        border-bottom: white 2px solid;
+        color: wheat;
+
+    }
+    .formpage form input:focus{
+        width: 300px;
+        outline-style: none;
+        color: wheat;
+    }
+    .formpage form label{
+        color: white;
+    }
+    button{
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        text-transform: capitalize;
+    }
+
+}
+@media screen and  (max-width: 500px){
+    
+    .formparent{
+        padding: 20px;  
+    }
+    .formparent .regf{
+        padding: 20px;
+
+    }
+}
+@media screen and  (max-width: 400px){
+    
+    .formparent{
+        padding: 10px;  
+    }
+    .formparent .regf{
+        padding: 5px;
+
+    }
+    .formparent .regff h1{
+        font-size: 20px;
+    }
+}
+@media screen and  (max-width: 350px){
+    
+    .formparent{
+        padding: 10px;  
+    }
+    .formparent .regf{
+        padding: 5px;
+
+    }
+    .formparent .regff h1{
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+@media screen and  (max-width: 280px){
+    
+    .formparent{
+        padding: 10px;  
+    }
+    .formparent .regf{
+        padding: 5px;
+
+    }
+    .formparent .regff h1{
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+
+
